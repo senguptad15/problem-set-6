@@ -9,11 +9,11 @@
  * unsure what your code should do, click the "Example" button to see. When you
  * click the "Hello" button, your output should match that of the example.
  */
-
-function sayHello() {
-
+function sayHello(){
+ let ctx = document.getElementById("canvas1").getContext("2d");
+ ctx.font = "48px sans-serif";
+ ctx.strokeText("Hello, World!", 10, 50);
 }
-
 /*
  * Rectangle. 3 points.
  *
